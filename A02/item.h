@@ -12,11 +12,11 @@
 /** An item. */
 typedef struct
 {
-	char *name;
-	char *description;
-	char *feedback_on_use;
-	// { AWAKENESS/BODY_TEMPERATURE, value to increase percentage by } -- I miss my objects :(
-	short effect[2]; // This limits each item to affect either awakeness or body temperatur -- never both.
+    char *name;
+    char *description;
+    char *feedback_on_use;
+    // { AWAKENESS/BODY_TEMPERATURE, value to increase percentage by } -- I miss my objects :(
+    short effect[2]; // This limits each item to affect either awakeness or body temperatur -- never both.
 } Item;
 
 /** Allocates memory for and constructs a new item. */

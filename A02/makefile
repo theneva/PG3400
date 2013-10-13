@@ -18,4 +18,3 @@ $(EXECUTABLE) : $(FILES)
 clean:
 	rm -rf *.o
 	rm -rf $(EXECUTABLE)
-

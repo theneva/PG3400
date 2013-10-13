@@ -6,8 +6,8 @@
 /** The player. */
 typedef struct
 {
-	int awakeness_percent;
-	int body_temperature_percent;
+    int awakeness_percent;
+    int body_temperature_percent;
 } Player;
 
 /** Allocates memory for and constructs a new player. */

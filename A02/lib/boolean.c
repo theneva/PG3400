@@ -4,5 +4,5 @@
 
 void print_boolean(boolean value)
 {
-	printf(value == true ? "true" : "false");
+    printf(value == true ? "true" : "false");
 }
