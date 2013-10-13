@@ -77,7 +77,7 @@ int main(int argc, char **argv)
     /**
      * Game on!
      */
-     printf("Last night's party was good, even though the music was terrible.\nYou wake up in your cabin's bedroom, and it's freezing.\nYou have a pretty bad hangover as well.\nYou have to find a way of getting warmed up and fully awake up so you can go out skiing.\n");
+     printf("Last night's party was good, even though the music was terrible.\nYou wake up in your cabin's bedroom, and it's freezing.\nYou have a pretty bad hangover as well.\nYou have to find a way of getting warmed up and fully awake so you can go out skiing.\n");
      printf("You're in terrible condition:\n");
      display_state(player);
 
