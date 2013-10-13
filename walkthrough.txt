@@ -1,0 +1,21 @@
+This is a simple walkthrough for the game.
+
+I didn't implement any kind of consecutive events, but it would be fairly simple to add a prerequisite to the Item and check whether it's fulfilled in the use_item method.
+
+To win, you need to get your awakeness and body temperature to at least 100 %. With this implementation, the only way to win is if you end up with 101 % of each.
+
+Please don't type in anything except numbers as the option selection isn't validated.
+
+How to win:
+0) Have Wine installed and/or run the game with "path/to/game force"
+1) You start out in the bedroom. Put the clothes on.
+2) Go to the bathroom.
+3) Take the Aspirin.
+4) Take a shower.
+5) Move to the living room.
+6) Move to the kitchen.
+7) Drink the coffee.
+8) Go back to the living room.
+9) Go outside.
+
+Yay.
